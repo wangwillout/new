@@ -1,0 +1,45 @@
+{
+    "name": "funson86/funshop",
+    "description": "An agile shop based on Yii2",
+    "keywords": ["yii2", "framework", "shop", "B2C"],
+    "homepage": "http://www.jiajiayoupin.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "devgroup/yii2-dropzone": "*",
+        "yiisoft/yii2-jui": "*",
+        "yiisoft/yii2-imagine": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*",
+        "mihaildev/yii2-ckeditor": "*",
+        "funson86/yii2-setting": "*",
+        "funson86/yii2-cms": "*",
+        "funson86/yii2-blog": "*",
+        "funson86/yii2-auth": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
